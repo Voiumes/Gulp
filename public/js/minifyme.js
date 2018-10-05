@@ -1,0 +1,1 @@
+"use strict";var sentence="Amazon takes your account security very seriously. Amazon will never email you and ask you to disclose or verify your Amazon password, credit card, or banking account number.",longest=function(e){for(var n=e.replace(/,|\./g," ").split(" "),o="s",r=0;r<n.length;r++)o.length<n[r].length&&(o=n[r]);return o};console.log(longest(sentence));
